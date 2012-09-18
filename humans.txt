@@ -1,0 +1,11 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Gustavo Lacoste> -- <Programmer> -- <@lacosox>
+
+# TECHNOLOGY COLOPHON
+
+    PHP5, HTML5, CSS3
+    jQuery, Modernizr

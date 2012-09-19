@@ -72,7 +72,7 @@
       </suplica>
 
       <excusa-dudosa>
-      <value id="0">mi disco duro se borro</value>
+      <value id="0">mi disco duro se borró</value>
       <value id="1">el perro comió mi <algo/></value>
       <value id="2">la persona con la que vivo comió mi <algo/></value>
       <value id="3">no sabía que yo estaba en esta materia</value>
@@ -195,7 +195,7 @@
 		<value id="49">reunión</value>
 		<value id="50">sabia</value>
 		<value id="51">secunde</value>
-		<value id="52">situacion</value>
+		<value id="52">situación</value>
 		<value id="53">sobradamente</value>
 		<value id="54">soldada</value>
 		<value id="55">sombras</value>
@@ -235,7 +235,7 @@
 		<value id="11">el vino chileno</value>
 		<value id="12">la chicha</value>
 		<value id="13">la cueca</value>
-		<value id="14">la empanà</value>
+		<value id="14">la empaná</value>
 		<value id="15">la independencia</value>
 		<value id="16">la libertad</value>
 		<value id="17">la patria</value>

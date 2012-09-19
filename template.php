@@ -87,7 +87,7 @@
             <hr>
 
             <footer>
-                <p>&copy; Lacosox.org 2012 - <strong><a href="https://github.com/knxroot/payas_generator" class="text-success">Fork me on GitHub</a></strong></p>
+                <p><a href="http://lacosox.org" class="text-info">&copy; Lacosox.org 2012</a> - <strong><a href="https://github.com/knxroot/payas_generator" class="text-success">Fork me on GitHub</a></strong></p>
             </footer>
 
         </div> <!-- /container -->

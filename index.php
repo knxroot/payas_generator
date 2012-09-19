@@ -13,12 +13,13 @@
  * Dependencias de otras clases
  */
 
-//ini_set('display_errors', '1');
+ini_set('display_errors', '0');
 session_start();
 set_include_path(get_include_path().PATH_SEPARATOR.'./include/');
 require_once('phpQuery/phpQuery-onefile.php');
 require_once('RandSGen.php');
 require_once('Fwok/Word/Syllabler/Spanish.php');
+require_once('utils.php');
 require_once('payador.php');
 
 

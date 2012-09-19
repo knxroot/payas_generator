@@ -2,594 +2,996 @@
 
 <n0>
     <gramatica1>
-        <inicio>
-            <value id="0">
-                Ahí te va una paya eh
-            </value>
-            <value id="1">
-                Brindo por 
-            </value>
-            <value id="2">
-                Brindo dijo <famosos/> por <cosasbrindar/> y <cosasbrindar/>
-            </value>
-        </inicio>
+	<inicio1>
+	    <value id="0">Por</value>
+	</inicio1>
+	<inicio2>
+	    <value id="0">Aro ...</value>
+	</inicio2>
+	<inicio3>
+	    <value id="0">Aro aro ...</value>
+	</inicio3>
+	<inicio4>
+	    <value id="0">Aro aro ...</value>
+	    <value id="1">Brindo por <cosasbrindar1/> y </value>
+	    <value id="1">Brindo por <comuna1/> y</value>
+	</inicio4>
+	<inicio5>
+	    <value id="0">Aro aro ...</value>
+	    <value id="1">Brindo por <cosasbrindar2/> y</value>
+	    <value id="1">Brindo por <comuna2/> y</value>
+	</inicio5>
+	<inicio6>
+	    <value id="0">Aro aro aro ...</value>
+	    <value id="1">Brindo por <cosasbrindar3/> y</value>
+	    <value id="1">Brindo por <comuna3/> y</value>
+	    <value id="1">Brindo por <cosasbrindar1/> y <cosasbrindar2/> y</value>
+	    <value id="1">Brindo por <comuna3/> y</value>
+	    <value id="1">Brindo por <comuna1/> y <comuna2/> y</value>
+	</inicio6>
 
-       <famosos>
-         <value id="0">Alexis Sánches</value>
-         <value id="1">Allende</value>
-         <value id="2">Américo</value>
-         <value id="3">Antonio Vodanociv</value>
-         <value id="4">Don Francisco</value>
-         <value id="5">Errazuriz</value>
-         <value id="6">Frei</value>
-         <value id="7">Golborne</value>
-         <value id="8">Huidobro</value>
-         <value id="9">Insulza</value>
-         <value id="10">Jordi Castell</value>
-         <value id="11">Jorge Valdivia</value>
-         <value id="12">Jorge Zabaleta</value>
-         <value id="13">Kramer</value>
-         <value id="14">Lagos</value>
-         <value id="15">Lavin</value>
-         <value id="16">Martín Cárcamo</value>
-         <value id="17">Maturana</value>
-         <value id="18">Neruda</value>
-         <value id="19">Ominami</value>
-         <value id="20">Patricio Laguna</value>
-         <value id="21">Pellegrini</value>
-         <value id="22">Piñera</value>
-         <value id="23">Pinochet</value>
-         <value id="24">Rafael Araneda</value>
-       </famosos>
-       <famosas>
-         <value id="0">Adriana Barrientos</value>
-         <value id="1">Bachelet</value>
-         <value id="2">Camila Vallejo</value>
-         <value id="3">Cecilia Bolocco</value>
-         <value id="4">Gabriela Mistral</value>
-         <value id="5">Karen Doggenweiler</value>
-         <value id="6">Karol Dance</value>
-         <value id="7">Leonor Varela</value>
-         <value id="8">María Elena Swett</value>
-         <value id="9">Nicole</value>
-         <value id="10">Nicole Moreno</value>
-         <value id="11">Pamela Díaz</value>
-         <value id="12">Tonka Tomicic</value>
-         <value id="13">Yamna Lobos</value>
-       </famosas>
+	<cualquiera1><value id="0">.</value>
+	</cualquiera1>
+	<cualquiera2>
+	    <value id="0">por <sustantivo1/></value>
+	    <value id="1">por mi</value>
+	    <value id="2">viva</value>
+	</cualquiera2>
+	<cualquiera3>
+	    <value id="0">por <sustantivo2/></value>
+	    <value id="1">con <sustantivo1/> y</value>
+	    <value id="2">brindo por</value>
+	</cualquiera3>
+	<cualquiera4>
+	    <value id="0">el <sustantivo1/> es un</value>
+	    <value id="1">si se <sustantivo1/> con</value>
+	    <value id="2">viva <sustantivo1/> y</value>
+	    <value id="3">vos que sos <sustantivo1/></value>
+	    <value id="4">por <sustantivo3/></value>
+	    <value id="5">con <sustantivo2/> y</value>
+	</cualquiera4>
+	<cualquiera5>
+	    <value id="0">tiene <sustantivo1/> y tiene</value>
+	    <value id="1">se los dice una</value>
+	    <value id="2">que aprendió con</value>
+	    <value id="3">el <sustantivo2/> es un</value>
+	    <value id="4">si se <sustantivo2/> con</value>
+	    <value id="5">viva <sustantivo2/> y</value>
+	    <value id="6">vos que sos <sustantivo2/></value>
+	    <value id="7">el <sustantivo1/> estaba</value>
+	    <value id="8">de esta <sustantivo1/> tan</value>
+	    <value id="9">por los <sustantivo1/> y el</value>
+	    <value id="10">por <sustantivo4/></value>
+	    <value id="11">con <sustantivo3/> y</value>
+	    <value id="12">brindo por <sustantivo1/> y</value>
+	</cualquiera5>
+	<cualquiera6>
+	    <value id="0">tiene <sustantivo2/> y tiene</value>
+	    <value id="1">el <sustantivo3/> es un</value>
+	    <value id="2">si se <sustantivo3/> con</value>
+	    <value id="3">viva <sustantivo3/> y</value>
+	    <value id="4">vos que sos <sustantivo3/></value>
+	    <value id="5">el <sustantivo2/> estaba</value>
+	    <value id="6">de esta <sustantivo2/> tan</value>
+	    <value id="7">por los <sustantivo2/> y el</value>
+	    <value id="8">por <sustantivo5/></value>
+	    <value id="9">y me tiraste un</value>
+	    <value id="10">con <sustantivo4/> y</value>
+	    <value id="11">brindo por <sustantivo2/> y</value>
+	</cualquiera6>
 
-        <suplica>
-            <value id="0"><excusa-dudosa/></value>
-      <value id="1"><excusa-dudosa/>, y luego <suplica/></value>
-      <value id="2"><excusa-dudosa/>, y encima de eso <suplica/> </value>
-      <value id="3"><excusa-dudosa/>, y como si eso no fuera suficiente <suplica/> </value>
-      <value id="4"><excusa-dudosa/>, y escucha esto, <suplica/> </value>
-      <value id="5"><excusa-dudosa/>, y justo entonces <suplica/> </value>
-      <value id="6"><excusa-dudosa/> y, bueno estoy un poco avergonzado por esto, pero <suplica/> </value>
-      <value id="7"><excusa-dudosa/>, y estoy seguro que has escuchado esto antes, pero <suplica/> </value>
-      <value id="8"><excusa-dudosa/>, o, y luego <suplica/> </value>
-      <value id="9"><excusa-dudosa/>, y si recuerdo correctamente <suplica/> </value>
-      </suplica>
+	<famosos1>
+	    <value id="0">El</value>
+	</famosos1>
+	<famosos2>
+	    <value id="0">Kramer</value>
+	    <value id="1">Lagos</value>
+	    <value id="2">Lavin</value>
+	    <value id="3">René</value>
+	</famosos2>
+	<famosos3>
+	    <value id="0">Allende</value>
+	    <value id="1">Golborne</value>
+	    <value id="2">Huidobro</value>
+	    <value id="3">Insulza</value>
+	    <value id="4">Neruda</value>
+	    <value id="5">Piñera</value>
+	    <value id="6">Pinochet</value>
+	</famosos3>
+	<famosos4>
+	    <value id="0">Alexis Sánches</value>
+	    <value id="1">Américo</value>
+	    <value id="2">Vodanociv</value>
+	    <value id="3">Don Francisco</value>
+	    <value id="4">Errazuriz</value>
+	    <value id="5">Jordi Castell</value>
+	    <value id="6">Maturana</value>
+	    <value id="7">Ominami</value>
+	    <value id="8">Pellegrini</value>
+	    <value id="9">Araneda</value>
+	</famosos4>
+	<famosos5>
+	    <value id="0">Jorge Valdivia</value>
+	    <value id="1">Martín Cárcamo</value>
+	</famosos5>
+	<famosos6>
+	    <value id="0">Jorge Zabaleta</value>
+	    <value id="1">Patricio Laguna</value>
+	    <value id="2">Rafael Araneda</value>
+	</famosos6>
 
-      <excusa-dudosa>
-      <value id="0">mi disco duro se borro</value>
-      <value id="1">el perro comió mi <algo/></value>
-      <value id="2">la persona con la que vivo comió mi <algo/></value>
-      <value id="3">no sabía que yo estaba en esta materia</value>
-      <value id="4">pensé que ya me había graduado</value>
-      <value id="5">mi casa se quemó</value>
-      <value id="6">pasé todo el fin de semana con una resaca</value>
-      <value id="7">tuve <mucho-trabajo/></value>
-      <value id="8">tuve <mucho-trabajo/></value>
-      <value id="9">bueno, ya no recuerdo mucho de lo que pasó</value>
-      <value id="10">tuve que irme a <evento-atletico/></value>
-      <value id="11">tuve que practicar para <evento-atletico/></value>
-      <value id="12">tuve que preocuparme de <evento-atletico/></value>
-      <value id="13">perdí plata apostando en <evento-atletico/></value>
-      <value id="14">me olvidé de cómo escribir</value>
-      <value id="15">todos mis lápices se rompieron</value>
-      <value id="16">la librería ya no tenía borradores</value>
-      <value id="17">se me terminó todo mi papel</value>
-      <value id="18">tuve que irme a un evento muy importante</value>
-      <value id="19">me quedé atrapado en una tormenta</value>
-      <value id="20">mi karma no estaba bueno</value>
-      <value id="21">no tenía ganas de trabajar</value>
-      <value id="22">estaba demasiado lindo afuera</value>
-      <value id="23">el lenguaje de programación no era suficientemente abstracto</value>
-      <value id="24">tuve que lavar mi ropa</value>
-      <value id="25">perdí mi <algo/></value>
-      <value id="26">mi <algo/> tuve un problema privado</value>
-      <value id="27">mi <algo/> fue confiscado por aduana</value>
-      <value id="28">mi <algo/> fue envuelto en una bruma misteriosa por tres dias y luego desapareció</value>
-      <value id="29">tuve sueños recurrentes sobre <algo/></value>
-      </excusa-dudosa>
+	<famosas1>
+	    <value id="0">Sol</value>
+	</famosas1>
+	<famosas2>
+	    <value id="0">Ella</value>
+	    <value id="1">Ada</value>
+	    <value id="2">Eda</value>
+	    <value id="3">Elda</value>
+	    <value id="4">Nancy</value>
+	</famosas2>
+	<famosas3>
+	    <value id="0">Bachelet</value>
+	    <value id="1">Nicole</value>
+	    <value id="2">Barrientos</value>
+	    <value id="3">Tomicic</value>
+	</famosas3>
+	<famosas4>
+	    <value id="0">Karol Dance</value>
+	    <value id="1">Yamna Lobos</value>
+	</famosas4>
+	<famosas5>
+	    <value id="0">Gabriela Mistral</value>
+	    <value id="1">Pamela Díaz</value>
+	    <value id="2">Tonka Tomicic</value>
+	</famosas5>
+	<famosas6>
+	    <value id="0">Adriana Barrientos</value>
+	    <value id="1">Camila Vallejo</value>
+	    <value id="2">Cecilia Bolocco</value>
+	    <value id="3">Karen Doggenweiler</value>
+	    <value id="4">Leonor Varela</value>
+	    <value id="5">María Elena Swett</value>
+	    <value id="6">Nicole Moreno</value>
+	</famosas6>
 
 
-<mucho-trabajo>
-      <value id="0"><numero-impresionante/> parciales</value>
-      <value id="1"><numero-impresionante/> parciales y <numero-impresionante/> tareas</value>
-      <value id="2">que terminar mi propuesta de tesis</value>
-      <value id="3"><numero-impresionante/> programas en <numero-impresionante/> lenguajes distintos</value>
-</mucho-trabajo>
-   <evento-atletico>
-      <value id="0">las unimpiadas</value>
-      <value id="1">una lucha libre de yacares</value>
-      <value id="2">un partido de futbol</value>
-      <value id="3">las semi-finales de danza paraguaya</value>
-    </evento-atletico>
-   <numero-impresionante>
-      <value id="0">4</value>
-      <value id="1">7</value>
-      <value id="2">como, un millón de </value>
-      <value id="3">toneladas de</value>
-      <value id="4">mega</value>
-      <value id="5">como, muchisimos, </value>
-  </numero-impresionante>
 
-   <algo>
-      <value id="0">disco duro</value>
-      <value id="1">cd</value>
-      <value id="2">mochila</value>
-      <value id="3">mente</value>
-      <value id="4">sentido de propósito</value>
-      <value id="5">libro</value>
-      <value id="6">anotaciones</value>
-      <value id="7">mi compu</value>
-      <value id="8">mi notebook</value>
-      <value id="9">especificacion del módulo</value>
-      <value id="10">código fuente</value>
-      <value id="11">sueños</value>
-      <value id="12">motivación</value>
-   </algo>
+	<sustantivo1>
+	    <value id="0">mal</value>
+	    <value id="1">oir</value>
+	    <value id="2">raiz</value>
+	</sustantivo1>
+	<sustantivo2>
+	    <value id="0">amor</value>
+	    <value id="1">antes</value>
+	    <value id="2">bestia</value>
+	    <value id="3">bestias</value>
+	    <value id="4">bruma</value>
+	    <value id="5">busques</value>
+	    <value id="6">calla</value>
+	    <value id="7">carne</value>
+	    <value id="8">corres</value>
+	    <value id="9">cosa</value>
+	    <value id="10">dicho</value>
+	    <value id="11">dioses</value>
+	    <value id="12">hijos</value>
+	    <value id="13">hizo</value>
+	    <value id="14">huellas</value>
+	    <value id="15">india</value>
+	    <value id="16">lengua</value>
+	    <value id="17">lomos</value>
+	    <value id="18">mala</value>
+	    <value id="19">metal</value>
+	    <value id="20">montes</value>
+	    <value id="21">mujer</value>
+	    <value id="22">otra</value>
+	    <value id="23">pasos</value>
+	    <value id="24">presto</value>
+	    <value id="25">puesto</value>
+	    <value id="26">raza</value>
+	    <value id="27">reunión</value>
+	    <value id="28">sabia</value>
+	    <value id="29">sombras</value>
+	    <value id="30">tiempo</value>
+	    <value id="31">tiempo</value>
+	    <value id="32">vida</value>
+	</sustantivo2>
+	<sustantivo3>
+	    <value id="0">amino</value>
+	    <value id="1">asuntos</value>
+	    <value id="2">cortaré</value>
+	    <value id="3">destino</value>
+	    <value id="4">espuma</value>
+	    <value id="5">herida</value>
+	    <value id="6">infeliz</value>
+	    <value id="7">ladrona</value>
+	    <value id="8">los vivos</value>
+	    <value id="9">mandados</value>
+	    <value id="10">menester</value>
+	    <value id="11">merece</value>
+	    <value id="12">molestia</value>
+	    <value id="13">noticias</value>
+	    <value id="14">principal</value>
+	    <value id="15">prohibo</value>
+	    <value id="16">secunde</value>
+	    <value id="17">situacion</value>
+	    <value id="18">soldada</value>
+	</sustantivo3>
+	<sustantivo4>
+	    <value id="0">delicados</value>
+	    <value id="1">identidad</value>
+	    <value id="2">torbellinos</value>
+	    <value id="3">poesía</value>
+	</sustantivo4>
+	<sustantivo5>
+	    <value id="0">desaparece</value>
+	    <value id="1">sobradamente</value>
+	</sustantivo5>
+	<sustantivo6>
+	</sustantivo6>
 
-        <sustantivo>
-		<value id="0">amino</value>
-		<value id="1">amor</value>
-		<value id="2">antes</value>
-		<value id="3">asuntos</value>
-		<value id="4">bestia</value>
-		<value id="5">bestias</value>
-		<value id="6">bruma</value>
-		<value id="7">busques</value>
-		<value id="8">calla</value>
-		<value id="9">carne</value>
-		<value id="10">corres</value>
-		<value id="11">cortaré</value>
-		<value id="12">cosa</value>
-		<value id="13">delicados</value>
-		<value id="14">desaparece</value>
-		<value id="15">destino</value>
-		<value id="16">dicho</value>
-		<value id="17">dioses</value>
-		<value id="18">espuma</value>
-		<value id="19">herida</value>
-		<value id="20">hijos</value>
-		<value id="21">hizo</value>
-		<value id="22">huellas</value>
-		<value id="23">identidad</value>
-		<value id="24">india</value>
-		<value id="25">infeliz</value>
-		<value id="26">ladrona</value>
-		<value id="27">lengua</value>
-		<value id="28">lomos</value>
-		<value id="29">los vivos</value>
-		<value id="30">mal</value>
-		<value id="31">mala</value>
-		<value id="32">mandados</value>
-		<value id="33">menester</value>
-		<value id="34">merece</value>
-		<value id="35">metal</value>
-		<value id="36">molestia</value>
-		<value id="37">montes</value>
-		<value id="38">mujer</value>
-		<value id="39">noticias</value>
-		<value id="40">oir</value>
-		<value id="41">otra</value>
-		<value id="42">pasos</value>
-		<value id="43">presto</value>
-		<value id="44">principal</value>
-		<value id="45">prohibo</value>
-		<value id="46">puesto</value>
-		<value id="47">raiz</value>
-		<value id="48">raza</value>
-		<value id="49">reunión</value>
-		<value id="50">sabia</value>
-		<value id="51">secunde</value>
-		<value id="52">situacion</value>
-		<value id="53">sobradamente</value>
-		<value id="54">soldada</value>
-		<value id="55">sombras</value>
-		<value id="56">tiempo</value>
-		<value id="57">tiempo</value>
-		<value id="58">torbellinos</value>
-		<value id="59">vida</value>
-		<value id="60">poesía</value>
-        </sustantivo>
-        <verbo>
-            <value id="0">
-                mirando
-            </value>
-            <value id="1">
-                comiendo
-            </value>
-            <value id="2">
-                escribiendo
-            </value>
-            <value id="3">
-                escuchando
-            </value>
-        </verbo>
 
-	<cosasbrindar>
-		<value id="0">el programador de esto</value>
-		<value id="1">Chile</value>
-		<value id="2">el amor</value>
-		<value id="3">el asaó</value>
-		<value id="4">el brasero</value>
-		<value id="5">el caballo</value>
-		<value id="6">el campo</value>
-		<value id="7">el dieciocho</value>
-		<value id="8">el futuro</value>
-		<value id="9">el mate</value>
-		<value id="10">el vino</value>
-		<value id="11">el vino chileno</value>
-		<value id="12">la chicha</value>
-		<value id="13">la cueca</value>
-		<value id="14">la empanà</value>
-		<value id="15">la independencia</value>
-		<value id="16">la libertad</value>
-		<value id="17">la patria</value>
-		<value id="18">las mujeres</value>
-		<value id="19">los anticuchos</value>
-		<value id="20">nuestra tierra linda</value>
-	</cosasbrindar>
-	<comuna>
-		<value id="0">Iquique</value>
-		<value id="1">Alto Hospicio</value>
-		<value id="2">Pozo Almonte</value>
-		<value id="3">Camiña</value>
-		<value id="4">Colchane</value>
-		<value id="5">Huara</value>
-		<value id="6">Pica</value>
-		<value id="7">Antofagasta</value>
-		<value id="8">Mejillones</value>
-		<value id="9">Sierra Gorda</value>
-		<value id="10">Taltal</value>
-		<value id="11">Calama</value>
-		<value id="12">Ollagüe</value>
-		<value id="13">San Pedro de Atacama</value>
-		<value id="14">Tocopilla</value>
-		<value id="15">María Elena</value>
-		<value id="16">Copiapó</value>
-		<value id="17">Caldera</value>
-		<value id="18">Tierra Amarilla</value>
-		<value id="19">Chañaral</value>
-		<value id="20">Diego de Almagro</value>
-		<value id="21">Vallenar</value>
-		<value id="22">Alto del Carmen</value>
-		<value id="23">Freirina</value>
-		<value id="24">Huasco</value>
-		<value id="25">La Serena</value>
-		<value id="26">Coquimbo</value>
-		<value id="27">Andacollo</value>
-		<value id="28">La Higuera</value>
-		<value id="29">Paihuano</value>
-		<value id="30">Vicuña</value>
-		<value id="31">Illapel</value>
-		<value id="32">Canela</value>
-		<value id="33">Los Vilos</value>
-		<value id="34">Salamanca</value>
-		<value id="35">Ovalle</value>
-		<value id="36">Combarbalá</value>
-		<value id="37">Monte Patria</value>
-		<value id="38">Punitaqui</value>
-		<value id="39">Río Hurtado</value>
-		<value id="40">Valparaíso</value>
-		<value id="41">Casablanca</value>
-		<value id="42">Concón</value>
-		<value id="43">Juan Fernández</value>
-		<value id="44">Puchuncaví</value>
-		<value id="45">Quintero</value>
-		<value id="46">Viña del Mar</value>
-		<value id="47">Isla de Pascua</value>
-		<value id="48">Los Andes</value>
-		<value id="49">Calle Larga</value>
-		<value id="50">Rinconada</value>
-		<value id="51">San Esteban</value>
-		<value id="52">La Ligua</value>
-		<value id="53">Cabildo</value>
-		<value id="54">Papudo</value>
-		<value id="55">Petorca</value>
-		<value id="56">Zapallar</value>
-		<value id="57">Quillota</value>
-		<value id="58">La Calera</value>
-		<value id="59">Hijuelas</value>
-		<value id="60">La Cruz</value>
-		<value id="61">Nogales</value>
-		<value id="62">San Antonio</value>
-		<value id="63">Algarrobo</value>
-		<value id="64">Cartagena</value>
-		<value id="65">El Quisco</value>
-		<value id="66">El Tabo</value>
-		<value id="67">Santo Domingo</value>
-		<value id="68">San Felipe</value>
-		<value id="69">Catemu</value>
-		<value id="70">Llay Llay</value>
-		<value id="71">Panquehue</value>
-		<value id="72">Putaendo</value>
-		<value id="73">Santa María</value>
-		<value id="74">Quilpué</value>
-		<value id="75">Limache</value>
-		<value id="76">Olmué</value>
-		<value id="77">Villa Alemana</value>
-		<value id="78">Rancagua</value>
-		<value id="79">Codegua</value>
-		<value id="80">Coinco</value>
-		<value id="81">Coltauco</value>
-		<value id="82">Doñihue</value>
-		<value id="83">Graneros</value>
-		<value id="84">Las Cabras</value>
-		<value id="85">Machalí</value>
-		<value id="86">Malloa</value>
-		<value id="87">Mostazal</value>
-		<value id="88">Olivar</value>
-		<value id="89">Peumo</value>
-		<value id="90">Pichidegua</value>
-		<value id="91">Quinta de Tilcoco</value>
-		<value id="92">Rengo</value>
-		<value id="93">Requínoa</value>
-		<value id="94">San Vicente</value>
-		<value id="95">Pichilemu</value>
-		<value id="96">La Estrella</value>
-		<value id="97">Litueche</value>
-		<value id="98">Marchihue</value>
-		<value id="99">Navidad</value>
-		<value id="100">Paredones</value>
-		<value id="101">San Fernando</value>
-		<value id="102">Chépica</value>
-		<value id="103">Chimbarongo</value>
-		<value id="104">Lolol</value>
-		<value id="105">Nancagua</value>
-		<value id="106">Palmilla</value>
-		<value id="107">Peralillo</value>
-		<value id="108">Placilla</value>
-		<value id="109">Pumanque</value>
-		<value id="110">Santa Cruz</value>
-		<value id="111">Talca</value>
-		<value id="112">Constitución</value>
-		<value id="113">Curepto</value>
-		<value id="114">Empedrado</value>
-		<value id="115">Maule</value>
-		<value id="116">Pelarco</value>
-		<value id="117">Pencahue</value>
-		<value id="118">Río Claro</value>
-		<value id="119">San Clemente</value>
-		<value id="120">San Rafael</value>
-		<value id="121">Cauquenes</value>
-		<value id="122">Chanco</value>
-		<value id="123">Pelluhue</value>
-		<value id="124">Curicó</value>
-		<value id="125">Hualañé</value>
-		<value id="126">Licantén</value>
-		<value id="127">Molina</value>
-		<value id="128">Rauco</value>
-		<value id="129">Romeral</value>
-		<value id="130">Sagrada Familia</value>
-		<value id="131">Teno</value>
-		<value id="132">Vichuquén</value>
-		<value id="133">Linares</value>
-		<value id="134">Colbún</value>
-		<value id="135">Longaví</value>
-		<value id="136">Parral</value>
-		<value id="137">Retiro</value>
-		<value id="138">San Javier</value>
-		<value id="139">Villa Alegre</value>
-		<value id="140">Yerbas Buenas</value>
-		<value id="141">Concepción</value>
-		<value id="142">Coronel</value>
-		<value id="143">Chiguayante</value>
-		<value id="144">Florida</value>
-		<value id="145">Hualqui</value>
-		<value id="146">Lota</value>
-		<value id="147">Penco</value>
-		<value id="148">San Pedro de la Paz</value>
-		<value id="149">Santa Juana</value>
-		<value id="150">Talcahuano</value>
-		<value id="151">Tomé</value>
-		<value id="152">Hualpén</value>
-		<value id="153">Lebu</value>
-		<value id="154">Arauco</value>
-		<value id="155">Cañete</value>
-		<value id="156">Contulmo</value>
-		<value id="157">Curanilahue</value>
-		<value id="158">Los Álamos</value>
-		<value id="159">Tirúa</value>
-		<value id="160">Los Ángeles</value>
-		<value id="161">Antuco</value>
-		<value id="162">Cabrero</value>
-		<value id="163">Laja</value>
-		<value id="164">Mulchén</value>
-		<value id="165">Nacimiento</value>
-		<value id="166">Negrete</value>
-		<value id="167">Quilaco</value>
-		<value id="168">Quilleco</value>
-		<value id="169">San Rosendo</value>
-		<value id="170">Santa Bárbara</value>
-		<value id="171">Tucapel</value>
-		<value id="172">Yumbel</value>
-		<value id="173">Alto Biobío</value>
-		<value id="174">Chillán</value>
-		<value id="175">Bulnes</value>
-		<value id="176">Cobquecura</value>
-		<value id="177">Coelemu</value>
-		<value id="178">Coihueco</value>
-		<value id="179">Chillán Viejo</value>
-		<value id="180">El Carmen</value>
-		<value id="181">Ninhue</value>
-		<value id="182">Ñiquén</value>
-		<value id="183">Pemuco</value>
-		<value id="184">Pinto</value>
-		<value id="185">Portezuelo</value>
-		<value id="186">Quillón</value>
-		<value id="187">Quirihue</value>
-		<value id="188">Ránquil</value>
-		<value id="189">San Carlos</value>
-		<value id="190">San Fabián</value>
-		<value id="191">San Ignacio</value>
-		<value id="192">San Nicolás</value>
-		<value id="193">Treguaco</value>
-		<value id="194">Yungay</value>
-		<value id="195">Temuco</value>
-		<value id="196">Carahue</value>
-		<value id="197">Cunco</value>
-		<value id="198">Curarrehue</value>
-		<value id="199">Freire</value>
-		<value id="200">Galvarino</value>
-		<value id="201">Gorbea</value>
-		<value id="202">Lautaro</value>
-		<value id="203">Loncoche</value>
-		<value id="204">Melipeuco</value>
-		<value id="205">Nueva Imperial</value>
-		<value id="206">Padre las Casas</value>
-		<value id="207">Perquenco</value>
-		<value id="208">Pitrufquén</value>
-		<value id="209">Pucón</value>
-		<value id="210">Saavedra</value>
-		<value id="211">Teodoro Schmidt</value>
-		<value id="212">Toltén</value>
-		<value id="213">Vilcún</value>
-		<value id="214">Villarrica</value>
-		<value id="215">Cholchol</value>
-		<value id="216">Angol</value>
-		<value id="217">Collipulli</value>
-		<value id="218">Curacautín</value>
-		<value id="219">Ercilla</value>
-		<value id="220">Lonquimay</value>
-		<value id="221">Los Sauces</value>
-		<value id="222">Lumaco</value>
-		<value id="223">Purén</value>
-		<value id="224">Renaico</value>
-		<value id="225">Traiguén</value>
-		<value id="226">Victoria</value>
-		<value id="227">Puerto Montt</value>
-		<value id="228">Calbuco</value>
-		<value id="229">Cochamó</value>
-		<value id="230">Fresia</value>
-		<value id="231">Frutillar</value>
-		<value id="232">Los Muermos</value>
-		<value id="233">Llanquihue</value>
-		<value id="234">Maullín</value>
-		<value id="235">Puerto Varas</value>
-		<value id="236">Castro</value>
-		<value id="237">Ancud</value>
-		<value id="238">Chonchi</value>
-		<value id="239">Curaco de Vélez</value>
-		<value id="240">Dalcahue</value>
-		<value id="241">Puqueldón</value>
-		<value id="242">Queilén</value>
-		<value id="243">Quellón</value>
-		<value id="244">Quemchi</value>
-		<value id="245">Quinchao</value>
-		<value id="246">Osorno</value>
-		<value id="247">Puerto Octay</value>
-		<value id="248">Purranque</value>
-		<value id="249">Puyehue</value>
-		<value id="250">Río Negro</value>
-		<value id="251">San Juan de la Costa</value>
-		<value id="252">San Pablo</value>
-		<value id="253">Chaitén</value>
-		<value id="254">Futaleufú</value>
-		<value id="255">Hualaihué</value>
-		<value id="256">Palena</value>
-		<value id="257">Coyhaique</value>
-		<value id="258">Lago Verde</value>
-		<value id="259">Aysén</value>
-		<value id="260">Cisnes</value>
-		<value id="261">Guaitecas</value>
-		<value id="262">Cochrane</value>
-		<value id="263">O'Higgins</value>
-		<value id="264">Tortel</value>
-		<value id="265">Chile Chico</value>
-		<value id="266">Río Ibáñez</value>
-		<value id="267">Punta Arenas</value>
-		<value id="268">Laguna Blanca</value>
-		<value id="269">Río Verde</value>
-		<value id="270">San Gregorio</value>
-		<value id="271">Cabo de Hornos</value>
-		<value id="272">Antártica</value>
-		<value id="273">Porvenir</value>
-		<value id="274">Primavera</value>
-		<value id="275">Timaukel</value>
-		<value id="276">Natales</value>
-		<value id="277">Torres del Paine</value>
-		<value id="278">Santiago</value>
-		<value id="279">Cerrillos</value>
-		<value id="280">Cerro Navia</value>
-		<value id="281">Conchalí</value>
-		<value id="282">El Bosque</value>
-		<value id="283">Estación Central</value>
-		<value id="284">Huechuraba</value>
-		<value id="285">Independencia</value>
-		<value id="286">La Cisterna</value>
-		<value id="287">La Florida</value>
-		<value id="288">La Granja</value>
-		<value id="289">La Pintana</value>
-		<value id="290">La Reina</value>
-		<value id="291">Las Condes</value>
-		<value id="292">Lo Barnechea</value>
-		<value id="293">Lo Espejo</value>
-		<value id="294">Lo Prado</value>
-		<value id="295">Macul</value>
-		<value id="296">Maipú</value>
-		<value id="297">Ñuñoa</value>
-		<value id="298">Pedro Aguirre Cerda</value>
-		<value id="299">Peñalolén</value>
-		<value id="300">Providencia</value>
-		<value id="301">Pudahuel</value>
-		<value id="302">Quilicura</value>
-		<value id="303">Quinta Normal</value>
-		<value id="304">Recoleta</value>
-		<value id="305">Renca</value>
-		<value id="306">San Joaquín</value>
-		<value id="307">San Miguel</value>
-		<value id="308">San Ramón</value>
-		<value id="309">Vitacura</value>
-		<value id="310">Puente Alto</value>
-		<value id="311">Pirque</value>
-		<value id="312">San José de Maipo</value>
-		<value id="313">Colina</value>
-		<value id="314">Lampa</value>
-		<value id="315">Tiltil</value>
-		<value id="316">San Bernardo</value>
-		<value id="317">Buin</value>
-		<value id="318">Calera de Tango</value>
-		<value id="319">Paine</value>
-		<value id="320">Melipilla</value>
-		<value id="321">Alhué</value>
-		<value id="322">Curacaví</value>
-		<value id="323">María Pinto</value>
-		<value id="324">San Pedro</value>
-		<value id="325">Talagante</value>
-		<value id="326">El Monte</value>
-		<value id="327">Isla de Maipo</value>
-		<value id="328">Padre Hurtado</value>
-		<value id="329">Peñaflor</value>
-		<value id="330">Valdivia</value>
-		<value id="331">Corral</value>
-		<value id="332">Lanco</value>
-		<value id="333">Los Lagos</value>
-		<value id="334">Máfil</value>
-		<value id="335">Mariquina</value>
-		<value id="336">Paillaco</value>
-		<value id="337">Panguipulli</value>
-		<value id="338">La Unión</value>
-		<value id="339">Futrono</value>
-		<value id="340">Lago Ranco</value>
-		<value id="341">Río Bueno</value>
-		<value id="342">Arica</value>
-		<value id="343">Camarones</value>
-		<value id="344">Putre</value>
-		<value id="345">General Lagos</value>
-	</comuna>
+	<verbo1>
+	</verbo1>
+	<verbo2>
+	</verbo2>
+	<verbo3>
+	    <value id="0">mirando</value>
+	    <value id="1">comiendo</value>
+	    <value id="2">tomando</value>
+	    <value id="3">corriendo</value>
+	    <value id="4">leyendo</value>
+	</verbo3>
+	<verbo4>
+	    <value id="0">escribiendo</value>
+	    <value id="1">escuchando</value>
+	</verbo4>
+	<verbo5>
+	</verbo5>
+	<verbo6>
+	</verbo6>
+
+
+	<cosasbrindar1><value id="0">Yo</value>
+	</cosasbrindar1>
+	<cosasbrindar2>
+	    <value id="0">Chile</value>
+	    <value id="1">el amor</value>
+	    <value id="2">la empanà</value>
+	</cosasbrindar2>
+	<cosasbrindar3>
+	    <value id="0">el asaó</value>
+	    <value id="1">el campo</value>
+	    <value id="2">el mate</value>
+	    <value id="3">el vino</value>
+	    <value id="4">la chicha</value>
+	    <value id="5">la cueca</value>
+	    <value id="6">la patria</value>
+	</cosasbrindar3>
+	<cosasbrindar4>
+	    <value id="0">el brasero</value>
+	    <value id="1">el caballo</value>
+	    <value id="2">el dieciocho</value>
+	    <value id="3">el futuro</value>
+	    <value id="4">la libertad</value>
+	    <value id="5">las mujeres</value>
+	    <value id="6">los anticuchos</value>
+	</cosasbrindar4>
+	<cosasbrindar5>
+	    <value id="0">la independencia</value>
+	</cosasbrindar5>
+	<cosasbrindar6>
+	    <value id="0">el vino chileno</value>
+	    <value id="1">nuestra tierra linda</value>
+	</cosasbrindar6>
+
+	<comuna1>
+		<value id="0">Buin
+		</value>
+	</comuna1>
+
+	<comuna2>
+		<value id="0">Huara
+		</value>
+		<value id="1">Pica
+		</value>
+		<value id="2">Taltal
+		</value>
+		<value id="3">Ollagüe
+		</value>
+		<value id="4">Huasco
+		</value>
+		<value id="5">Concón
+		</value>
+		<value id="6">Los Andes
+		</value>
+		<value id="7">La Cruz
+		</value>
+		<value id="8">El Quisco
+		</value>
+		<value id="9">Llay Llay
+		</value>
+		<value id="10">Quilpué
+		</value>
+		<value id="11">Olmué
+		</value>
+		<value id="12">Coinco
+		</value>
+		<value id="13">Peumo
+		</value>
+		<value id="14">Rengo
+		</value>
+		<value id="15">Lolol
+		</value>
+		<value id="16">Talca
+		</value>
+		<value id="17">Maule
+		</value>
+		<value id="18">Chanco
+		</value>
+		<value id="19">Rauco
+		</value>
+		<value id="20">Teno
+		</value>
+		<value id="21">Colbún
+		</value>
+		<value id="22">Parral
+		</value>
+		<value id="23">Hualqui
+		</value>
+		<value id="24">Lota
+		</value>
+		<value id="25">Penco
+		</value>
+		<value id="26">Tomé
+		</value>
+		<value id="27">Hualpén
+		</value>
+		<value id="28">Lebu
+		</value>
+		<value id="29">Laja
+		</value>
+		<value id="30">Mulchén
+		</value>
+		<value id="31">Yumbel
+		</value>
+		<value id="32">Chillán
+		</value>
+		<value id="33">Bulnes
+		</value>
+		<value id="34">Ninhue
+		</value>
+		<value id="35">Ñiquén
+		</value>
+		<value id="36">Pinto
+		</value>
+		<value id="37">Quillón
+		</value>
+		<value id="38">Ránquil
+		</value>
+		<value id="39">Yungay
+		</value>
+		<value id="40">Cunco
+		</value>
+		<value id="41">Freire
+		</value>
+		<value id="42">Pucón
+		</value>
+		<value id="43">Toltén
+		</value>
+		<value id="44">Vilcún
+		</value>
+		<value id="45">Cholchol
+		</value>
+		<value id="46">Angol
+		</value>
+		<value id="47">Purén
+		</value>
+		<value id="48">Traiguén
+		</value>
+		<value id="49">Fresia
+		</value>
+		<value id="50">Maullín
+		</value>
+		<value id="51">Castro
+		</value>
+		<value id="52">Ancud
+		</value>
+		<value id="53">Chonchi
+		</value>
+		<value id="54">Queilén
+		</value>
+		<value id="55">Quellón
+		</value>
+		<value id="56">Quemchi
+		</value>
+		<value id="57">Chaitén
+		</value>
+		<value id="58">Aysén
+		</value>
+		<value id="59">Cisnes
+		</value>
+		<value id="60">Tortel
+		</value>
+		<value id="61">Macul
+		</value>
+		<value id="62">Maipú
+		</value>
+		<value id="63">Renca
+		</value>
+		<value id="64">Pirque
+		</value>
+		<value id="65">Lampa
+		</value>
+		<value id="66">Tiltil
+		</value>
+		<value id="67">Paine
+		</value>
+		<value id="68">Alhué
+		</value>
+		<value id="69">Corral
+		</value>
+		<value id="70">Lanco
+		</value>
+		<value id="71">Máfil
+		</value>
+		<value id="72">La Unión
+		</value>
+		<value id="73">Putre
+		</value>
+	</comuna2>
+
+	<comuna3>
+		<value id="0">Iquique
+		</value>
+		<value id="1">Camiña
+		</value>
+		<value id="2">Colchane
+		</value>
+		<value id="3">Calama
+		</value>
+		<value id="4">Copiapó
+		</value>
+		<value id="5">Caldera
+		</value>
+		<value id="6">Chañaral
+		</value>
+		<value id="7">Vallenar
+		</value>
+		<value id="8">Freirina
+		</value>
+		<value id="9">Coquimbo
+		</value>
+		<value id="10">Paihuano
+		</value>
+		<value id="11">Vicuña
+		</value>
+		<value id="12">Illapel
+		</value>
+		<value id="13">Canela
+		</value>
+		<value id="14">Los Vilos
+		</value>
+		<value id="15">Ovalle
+		</value>
+		<value id="16">Quintero
+		</value>
+		<value id="17">San Esteban
+		</value>
+		<value id="18">La Ligua
+		</value>
+		<value id="19">Cabildo
+		</value>
+		<value id="20">Papudo
+		</value>
+		<value id="21">Petorca
+		</value>
+		<value id="22">Zapallar
+		</value>
+		<value id="23">Quillota
+		</value>
+		<value id="24">Hijuelas
+		</value>
+		<value id="25">Nogales
+		</value>
+		<value id="26">San Antonio
+		</value>
+		<value id="27">El Tabo
+		</value>
+		<value id="28">Catemu
+		</value>
+		<value id="29">Panquehue
+		</value>
+		<value id="30">Limache
+		</value>
+		<value id="31">Rancagua
+		</value>
+		<value id="32">Codegua
+		</value>
+		<value id="33">Coltauco
+		</value>
+		<value id="34">Doñihue
+		</value>
+		<value id="35">Graneros
+		</value>
+		<value id="36">Las Cabras
+		</value>
+		<value id="37">Machalí
+		</value>
+		<value id="38">Malloa
+		</value>
+		<value id="39">Mostazal
+		</value>
+		<value id="40">Olivar
+		</value>
+		<value id="41">La Estrella
+		</value>
+		<value id="42">Litueche
+		</value>
+		<value id="43">Marchihue
+		</value>
+		<value id="44">Navidad
+		</value>
+		<value id="45">Chépica
+		</value>
+		<value id="46">Nancagua
+		</value>
+		<value id="47">Palmilla
+		</value>
+		<value id="48">Placilla
+		</value>
+		<value id="49">Pumanque
+		</value>
+		<value id="50">Santa Cruz
+		</value>
+		<value id="51">Curepto
+		</value>
+		<value id="52">Pelarco
+		</value>
+		<value id="53">Pencahue
+		</value>
+		<value id="54">Cauquenes
+		</value>
+		<value id="55">Pelluhue
+		</value>
+		<value id="56">Curicó
+		</value>
+		<value id="57">Hualañé
+		</value>
+		<value id="58">Licantén
+		</value>
+		<value id="59">Molina
+		</value>
+		<value id="60">Romeral
+		</value>
+		<value id="61">Vichuquén
+		</value>
+		<value id="62">Linares
+		</value>
+		<value id="63">Longaví
+		</value>
+		<value id="64">Retiro
+		</value>
+		<value id="65">San Javier
+		</value>
+		<value id="66">Concepción
+		</value>
+		<value id="67">Coronel
+		</value>
+		<value id="68">Florida
+		</value>
+		<value id="69">Arauco
+		</value>
+		<value id="70">Cañete
+		</value>
+		<value id="71">Contulmo
+		</value>
+		<value id="72">Los Álamos
+		</value>
+		<value id="73">Tirúa
+		</value>
+		<value id="74">Los Ángeles
+		</value>
+		<value id="75">Antuco
+		</value>
+		<value id="76">Cabrero
+		</value>
+		<value id="77">Negrete
+		</value>
+		<value id="78">Quilaco
+		</value>
+		<value id="79">Quilleco
+		</value>
+		<value id="80">Tucapel
+		</value>
+		<value id="81">Coihueco
+		</value>
+		<value id="82">El Carmen
+		</value>
+		<value id="83">Pemuco
+		</value>
+		<value id="84">Quirihue
+		</value>
+		<value id="85">San Carlos
+		</value>
+		<value id="86">San Fabián
+		</value>
+		<value id="87">San Ignacio
+		</value>
+		<value id="88">Treguaco
+		</value>
+		<value id="89">Temuco
+		</value>
+		<value id="90">Carahue
+		</value>
+		<value id="91">Gorbea
+		</value>
+		<value id="92">Lautaro
+		</value>
+		<value id="93">Loncoche
+		</value>
+		<value id="94">Perquenco
+		</value>
+		<value id="95">Pitrufquén
+		</value>
+		<value id="96">Ercilla
+		</value>
+		<value id="97">Lonquimay
+		</value>
+		<value id="98">Los Sauces
+		</value>
+		<value id="99">Lumaco
+		</value>
+		<value id="100">Renaico
+		</value>
+		<value id="101">Victoria
+		</value>
+		<value id="102">Puerto Montt
+		</value>
+		<value id="103">Calbuco
+		</value>
+		<value id="104">Cochamó
+		</value>
+		<value id="105">Frutillar
+		</value>
+		<value id="106">Los Muermos
+		</value>
+		<value id="107">Llanquihue
+		</value>
+		<value id="108">Dalcahue
+		</value>
+		<value id="109">Puqueldón
+		</value>
+		<value id="110">Quinchao
+		</value>
+		<value id="111">Osorno
+		</value>
+		<value id="112">Puerto Octay
+		</value>
+		<value id="113">Purranque
+		</value>
+		<value id="114">Puyehue
+		</value>
+		<value id="115">San Pablo
+		</value>
+		<value id="116">Hualaihué
+		</value>
+		<value id="117">Palena
+		</value>
+		<value id="118">Coyhaique
+		</value>
+		<value id="119">Guaitecas
+		</value>
+		<value id="120">Cochrane
+		</value>
+		<value id="121">O'Higgins
+		</value>
+		<value id="122">Porvenir
+		</value>
+		<value id="123">Timaukel
+		</value>
+		<value id="124">Natales
+		</value>
+		<value id="125">Santiago
+		</value>
+		<value id="126">Cerrillos
+		</value>
+		<value id="127">Conchalí
+		</value>
+		<value id="128">El Bosque
+		</value>
+		<value id="129">La Granja
+		</value>
+		<value id="130">La Reina
+		</value>
+		<value id="131">Las Condes
+		</value>
+		<value id="132">Lo Espejo
+		</value>
+		<value id="133">Lo Prado
+		</value>
+		<value id="134">Ñuñoa
+		</value>
+		<value id="135">Pudahuel
+		</value>
+		<value id="136">San Miguel
+		</value>
+		<value id="137">San Ramón
+		</value>
+		<value id="138">Puente Alto
+		</value>
+		<value id="139">Colina
+		</value>
+		<value id="140">San Pedro
+		</value>
+		<value id="141">El Monte
+		</value>
+		<value id="142">Peñaflor
+		</value>
+		<value id="143">Valdivia
+		</value>
+		<value id="144">Los Lagos
+		</value>
+		<value id="145">Paillaco
+		</value>
+		<value id="146">Futrono
+		</value>
+		<value id="147">Arica
+		</value>
+	</comuna3>
+
+	<comuna4>
+		<value id="0">Pozo Almonte
+		</value>
+		<value id="1">Mejillones
+		</value>
+		<value id="2">Sierra Gorda
+		</value>
+		<value id="3">Tocopilla
+		</value>
+		<value id="4">La Serena
+		</value>
+		<value id="5">Andacollo
+		</value>
+		<value id="6">La Higuera
+		</value>
+		<value id="7">Salamanca
+		</value>
+		<value id="8">Combarbalá
+		</value>
+		<value id="9">Monte Patria
+		</value>
+		<value id="10">Punitaqui
+		</value>
+		<value id="11">Casablanca
+		</value>
+		<value id="12">Juan Fernández
+		</value>
+		<value id="13">Puchuncaví
+		</value>
+		<value id="14">Viña del Mar
+		</value>
+		<value id="15">Calle Larga
+		</value>
+		<value id="16">Rinconada
+		</value>
+		<value id="17">La Calera
+		</value>
+		<value id="18">Algarrobo
+		</value>
+		<value id="19">Cartagena
+		</value>
+		<value id="20">San Felipe
+		</value>
+		<value id="21">Putaendo
+		</value>
+		<value id="22">Pichidegua
+		</value>
+		<value id="23">Requínoa
+		</value>
+		<value id="24">San Vicente
+		</value>
+		<value id="25">Pichilemu
+		</value>
+		<value id="26">Paredones
+		</value>
+		<value id="27">San Fernando
+		</value>
+		<value id="28">Chimbarongo
+		</value>
+		<value id="29">Peralillo
+		</value>
+		<value id="30">Constitución
+		</value>
+		<value id="31">Empedrado
+		</value>
+		<value id="32">Río Claro
+		</value>
+		<value id="33">San Clemente
+		</value>
+		<value id="34">San Rafael
+		</value>
+		<value id="35">Villa Alegre
+		</value>
+		<value id="36">Yerbas Buenas
+		</value>
+		<value id="37">Chiguayante
+		</value>
+		<value id="38">Santa Juana
+		</value>
+		<value id="39">Talcahuano
+		</value>
+		<value id="40">Nacimiento
+		</value>
+		<value id="41">San Rosendo
+		</value>
+		<value id="42">Cobquecura
+		</value>
+		<value id="43">Coelemu
+		</value>
+		<value id="44">Chillán Viejo
+		</value>
+		<value id="45">Portezuelo
+		</value>
+		<value id="46">San Nicolás
+		</value>
+		<value id="47">Curarrehue
+		</value>
+		<value id="48">Galvarino
+		</value>
+		<value id="49">Melipeuco
+		</value>
+		<value id="50">Nueva Imperial
+		</value>
+		<value id="51">Saavedra
+		</value>
+		<value id="52">Villarrica
+		</value>
+		<value id="53">Collipulli
+		</value>
+		<value id="54">Curacautín
+		</value>
+		<value id="55">Puerto Varas
+		</value>
+		<value id="56">Río Negro
+		</value>
+		<value id="57">Futaleufú
+		</value>
+		<value id="58">Lago Verde
+		</value>
+		<value id="59">Chile Chico
+		</value>
+		<value id="60">Río Ibáñez
+		</value>
+		<value id="61">Punta Arenas
+		</value>
+		<value id="62">Río Verde
+		</value>
+		<value id="63">San Gregorio
+		</value>
+		<value id="64">Antártica
+		</value>
+		<value id="65">Primavera
+		</value>
+		<value id="66">Cerro Navia
+		</value>
+		<value id="67">Huechuraba
+		</value>
+		<value id="68">La Cisterna
+		</value>
+		<value id="69">La Florida
+		</value>
+		<value id="70">La Pintana
+		</value>
+		<value id="71">Peñalolén
+		</value>
+		<value id="72">Providencia
+		</value>
+		<value id="73">Quilicura
+		</value>
+		<value id="74">Quinta Normal
+		</value>
+		<value id="75">Recoleta
+		</value>
+		<value id="76">San Joaquín
+		</value>
+		<value id="77">Vitacura
+		</value>
+		<value id="78">San Bernardo
+		</value>
+		<value id="79">Melipilla
+		</value>
+		<value id="80">Curacaví
+		</value>
+		<value id="81">Talagante
+		</value>
+		<value id="82">Mariquina
+		</value>
+		<value id="83">Panguipulli
+		</value>
+		<value id="84">Lago Ranco
+		</value>
+		<value id="85">Río Bueno
+		</value>
+		<value id="86">Camarones
+		</value>
+	</comuna4>
+
+	<comuna5>
+		<value id="0">Alto Hospicio
+		</value>
+		<value id="1">Antofagasta
+		</value>
+		<value id="2">María Elena
+		</value>
+		<value id="3">Tierra Amarilla
+		</value>
+		<value id="4">Diego de Almagro
+		</value>
+		<value id="5">Alto del Carmen
+		</value>
+		<value id="6">Río Hurtado
+		</value>
+		<value id="7">Valparaíso
+		</value>
+		<value id="8">Isla de Pascua
+		</value>
+		<value id="9">Santo Domingo
+		</value>
+		<value id="10">Santa María
+		</value>
+		<value id="11">Villa Alemana
+		</value>
+		<value id="12">Curanilahue
+		</value>
+		<value id="13">Santa Bárbara
+		</value>
+		<value id="14">Alto Biobío
+		</value>
+		<value id="15">Padre las Casas
+		</value>
+		<value id="16">Laguna Blanca
+		</value>
+		<value id="17">Cabo de Hornos
+		</value>
+		<value id="18">Torres del Paine
+		</value>
+		<value id="19">Estación Central
+		</value>
+		<value id="20">Independencia
+		</value>
+		<value id="21">Lo Barnechea
+		</value>
+		<value id="22">María Pinto
+		</value>
+		<value id="23">Isla de Maipo
+		</value>
+		<value id="24">Padre Hurtado
+		</value>
+		<value id="25">General Lagos
+		</value>
+	</comuna5>
+
+	<comuna6>
+		<value id="0">Quinta de Tilcoco
+		</value>
+		<value id="1">Sagrada Familia
+		</value>
+		<value id="2">San Pedro de la Paz
+		</value>
+		<value id="3">Teodoro Schmidt
+		</value>
+		<value id="4">Curaco de Vélez
+		</value>
+		<value id="5">San Juan de la Costa
+		</value>
+		<value id="6">Pedro Aguirre Cerda
+		</value>
+		<value id="7">San José de Maipo
+		</value>
+		<value id="8">Calera de Tango
+		</value>
+	</comuna6>
     </gramatica1>
 </n0>

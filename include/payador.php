@@ -28,10 +28,10 @@ class payador {
   /* Genera una frase aleatoria de un largo
    * aproximado de $cantSilabas
    */
-  public function generarFrase($cantSilabas) {
+  public function generarFrase($cantSilabas, $altura="cualquiera") {
   $glc = phpQuery::newDocumentFile($this->glc_file);
   $rsg = new RandSGen($glc, $this->g_payas);
-  $rsg->setStartTagName('inicio');
+  $rsg->setStartTagName($altura.$cantSilabas);
   $rsg->generateFromStart();
   $frase=$rsg->getGeneratedSentence()->text();
 
@@ -42,7 +42,7 @@ class payador {
    */
   public function generaRimas($palabra) {
 
-  if(strlen($palabra)>=3){
+  if(strlen($palabra)>3){
     $palabra=substr($palabra, -3);
   }
 
@@ -127,20 +127,33 @@ class payador {
 
     switch (count($cuarteta)) {
       case 0:
-        $cuarteta[]=trim($this->generarFrase(8-$this->countSilabas($palabra))." ".$palabra);
+        $cuarteta[]=trim($this->generarFrase(8-$this->countSilabas($palabra),"inicio")." ".$palabra);
         break;
       case 1:
         $SubpalabrasPrimerVerso=explode(" ",preg_replace("/\s+/i", " ", $cuarteta[0]));
         //Quita los articulos como parte de los elementos del arreglo que se ofrece de entrada
-        $SubpalabrasPrimerVerso=array_udiff($SubpalabrasPrimerVerso, array("el", "la", "los", "las", "un", "una", "unos", "unas", "lo", "al", "del"), 'strcasecmp');
-        $rimas2=$this->generaRimas(substr($SubpalabrasPrimerVerso[array_rand($SubpalabrasPrimerVerso,1)], -3));
-        $cuarteta[]=trim($this->generarFrase(8-$this->countSilabas($rimas2[0]))." ".$rimas2[0]);
+        $SubpalabrasPrimerVerso=array_udiff($SubpalabrasPrimerVerso, array("el", "la", "los", "las", "un", "una", "unos", "unas", "lo", "al", "del","y"), 'strcasecmp');
+        $tmp=Array();
+	foreach ($SubpalabrasPrimerVerso as &$s) {
+	 if(strlen($s)>4){
+	 $tmp[]=$s;
+	 }
+	}
+        if(count($tmp)<1){$tmp=Array("Chile");}
+	$SubpalabrasPrimerVerso=$tmp;
+        $irand=array_rand($SubpalabrasPrimerVerso);
+        $rimas2=$this->generaRimas(stripAccents(substr($SubpalabrasPrimerVerso[$irand], -3)));
+        $irand=array_rand($rimas2);
+        $rima2=$rimas2[$irand];
+        $cuarteta[]=trim($this->generarFrase(8-$this->countSilabas($rima2))." ".$rima2);
         break;
       case 2:
-        $cuarteta[]=trim($this->generarFrase(8-$this->countSilabas($rimas1[0]))." ".$rimas1[0]);
+        $rima1=$rimas1[array_rand($rimas1)];
+        $cuarteta[]=trim($this->generarFrase(8-$this->countSilabas($rima1))." ".$rima1);
         break;
       case 3:
-        $cuarteta[]=trim($this->generarFrase(8-$this->countSilabas($rimas2[1]))." ".$rimas2[1]);
+        $rima2=$rimas2[array_rand($rimas2)];
+        $cuarteta[]=trim($this->generarFrase(8-$this->countSilabas($rima2))." ".$rima2);
         break;
     }
   }
@@ -154,5 +167,6 @@ class payador {
     /*falta implementar payar en décimas, por ahora sólo es posible payar en cuartetas*/
     return $this->generarCuarteta($this->tematica);
   }
+
 }
 ?>

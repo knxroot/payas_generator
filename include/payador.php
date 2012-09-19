@@ -121,8 +121,10 @@ class payador {
   public function generarCuarteta($palabra){
   $cuarteta=Array();
   $rimas1=Array();$rimas2=Array();
-  $rimas1=$this->generaRimas($palabra);
-  
+  $rimas1=$this->generaRimas(stripAccents($palabra));
+  if(count($rimas1)<1){$rimas1=$this->generaRimas(stripAccents(substr($palabra, -2)));} 
+  if(count($rimas1)<1){$rimas1=$this->generaRimas(stripAccents(substr($palabra, -1)));} 
+
   while (count($cuarteta)<=3) {
 
     switch (count($cuarteta)) {
@@ -143,11 +145,14 @@ class payador {
 	$SubpalabrasPrimerVerso=$tmp;
         $irand=array_rand($SubpalabrasPrimerVerso);
         $rimas2=$this->generaRimas(stripAccents(substr($SubpalabrasPrimerVerso[$irand], -3)));
+        if(count($rimas2)<1){$rimas2=$this->generaRimas(stripAccents(substr($SubpalabrasPrimerVerso[$irand], -2)));} 
+        if(count($rimas2)<1){$rimas2=$this->generaRimas(stripAccents(substr($SubpalabrasPrimerVerso[$irand], -1)));} 
         $irand=array_rand($rimas2);
         $rima2=$rimas2[$irand];
         $cuarteta[]=trim($this->generarFrase(8-$this->countSilabas($rima2))." ".$rima2);
         break;
       case 2:
+        //print_r($rimas1);echo array_rand($rimas1);
         $rima1=$rimas1[array_rand($rimas1)];
         $cuarteta[]=trim($this->generarFrase(8-$this->countSilabas($rima1))." ".$rima1);
         break;

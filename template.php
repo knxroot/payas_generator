@@ -52,7 +52,7 @@
 
 		<aside id="default-popup" class="avgrund-popup">
 			<h2>Acerca de..</h2>
-			<p>El Generador de payas funciona como el ajo porque lo programó un mono. Si usted cree que programa mejor que un mono puede hacer click en el link del pie que dice "Fork me on GitHub" y generar su propia versión con juegos de azar y mujerzuelas. El autor (@lacosox)</p>
+			<p>El Generador de payas funciona como el ajo porque lo programó un mono. Si usted cree que programa mejor que un mono puede hacer click en el link del pie que dice "Fork me on GitHub" y generar su propia versión con juegos de azar y mujerzuelas. El autor (<a href="https://twitter.com/lacosox">@lacosox</a>)</p>
 			<button onclick="javascript:closeDialog();">Close</button>
 		</aside>
 
@@ -128,5 +128,6 @@
 	<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
 	<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e4eb2e17c08f43b"></script>
 	<!-- AddThis Button END -->
+
     </body>
 </html>

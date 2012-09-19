@@ -33,7 +33,7 @@
 .avgrund-contents {
 	position: relative;
 	padding: 20px;
-	max-width: 400px;
+	max-width: 250px;
 	height: 100%;
 	margin: auto;
 }
@@ -54,7 +54,7 @@
 
 .avgrund-popup {
 	position: absolute;
-	width: 340px;
+	width: 250px;
 	height: 200px;
 	left: 50%;
 	top: 50%;

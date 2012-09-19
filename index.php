@@ -25,9 +25,11 @@ require_once('payador.php');
 
 $payaHtmlArray=Array();
 if (isset($_GET["base"])){
-$base=$_GET["base"];
-$roboPayador=new payador($base);
-$payaHtmlArray=$roboPayador->decirPaya();
+  $base=preg_replace("/[^a-zA-Z0-9]+/", "", $_GET["base"]);
+  if($base!="" && strlen($base)>3){
+    $roboPayador=new payador($base);
+    $payaHtmlArray=$roboPayador->decirPaya();
+  }else{$base="";}
 }else{
 $base="";
 }

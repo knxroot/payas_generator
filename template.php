@@ -52,7 +52,7 @@
 
 		<aside id="default-popup" class="avgrund-popup">
 			<h2>Acerca de..</h2>
-			<p>El Generador de payas funciona como el ajo porque lo programó un mono. Si usted cree que programa mejor que un mono puede hacer click en el link del pie que dice "Fork me on GitHub" y generar su propia versión con juegos de azar y mujerzuelas. El autor (<a href="https://twitter.com/lacosox">@lacosox</a>)</p>
+			<p>El Generador de payas funciona como el ajo porque lo programó un mono. Si usted cree que programa mejor que un mono puede hacer click en el link del pie que dice "<a href="https://github.com/knxroot/payas_generator" class="text-success">Fork me on GitHub</a>" y generar su propia versión con juegos de azar y mujerzuelas. El autor (<a href="https://twitter.com/lacosox">@lacosox</a>)</p>
 			<button onclick="javascript:closeDialog();">Close</button>
 		</aside>
 
